@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Montserrat&display=swap');
+
+body {
+    font-family: Montserrat, sans-serif;
+    padding-top: 70px;
+    background-image: linear-gradient(rgb(235, 137, 178),rgb(161, 6, 161),pink,purple);
+    margin: 0;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+#main {
+    text-align: center;
+    min-width: 400px;
+}
+
+#main h1 {
+    font-size: 7vw;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+.baby{
+    color:rgb(130, 16, 236);
+}
+
+.monster{
+    color:rgb(209, 14, 153)
+}
+
+#main .baemon-info{
+    margin:0;
+    font-size: 2vw;
+    font-family: Lemonada, sans-serif;
+}
+
+img{
+    max-width: 75%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    padding: 10px;
+    margin: 0;
+  }
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    font-size: 1vw;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+}
+
+#intro{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+#tombol{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(133, 30, 230);
+    border: 0;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
